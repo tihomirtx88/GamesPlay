@@ -13,6 +13,9 @@ import { homePage } from "./views/home.js";
 import { loginPage } from "./views/login.js";
 import { registerPage } from "./views/register.js";
 
+import * as api from "./api/comments.js"
+window.api = api;
+
 
 page(addSession);
 page(addRender);
